@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units-px,rem,em,vh,vw,%vw</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: aqua;
+            border: 2px solid black;
+            width: 80vw;
+            margin: auto;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: aqua;
+            border: 2px solid black;
+            width: 80vw;
+            min-height: 80vh;
+            height: 80vh;
+            margin: 23px auto;
+            box-sizing: border-box;
+            font-size: 30px;
+        }
+        .container > div{
+            font-size: 1em;
+            width: 50%;
+            border: 2px solid red;
+        }
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+        .vmin{
+            /* background-color: red; */
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is box
+    </div>
+    <div class="container">
+        <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, assumenda laboriosam nulla quasi ea eius quaerat suscipit exercitationem obcaecati cupiditate commodi ut magnam repellat ratione placeat deleniti itaque numquam eveniet?
+        <div>
+            Lorem ipsum dolor sit amet.
+        </div>
+        </div>
+    </div>
+    <div class="vmin">
+        Lorem ipsum dolor sit amet.
+    </div>
+</body>
+</html>
