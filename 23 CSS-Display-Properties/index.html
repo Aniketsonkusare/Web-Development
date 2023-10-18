@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Properties</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid blue;
+            display: inline-block;
+            width: 200px;
+            padding: 23px;
+            margin: 23px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .box1{
+            border: 2px solid blue;
+            display: inline-block;
+            width: 200px;
+            padding: 23px;
+            margin: 23px;
+            /* display: none; */
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is a div
+    </div>
+    <div class="box">
+        this is a box
+    </div>
+    <div class="box1">
+        This is a box 1
+    </div>
+    <span>this is a span</span>
+</body>
+</html>
