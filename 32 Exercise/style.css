@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bgcolor: black;
+    --color: white;   
+    --first: green;
+    --second: blue;
+    --third: blueviolet;
+    --firsthover: black;
+    --secondhover: black;
+    --thirdhover: black;
+    --container: gray;
+}
+body{
+    background-color: wheat;
+}
+ul{
+    display: flex;
+    background-color: var(--bgcolor);
+}
+ul li{
+    list-style: none;
+    margin-left: 15px;
+    padding: 20px;
+    color: var(--color);
+}
+ul li:nth-child(1){
+    background-color: var(--first);
+}
+ul li:nth-child(1):hover{
+    background-color: var(--firsthover);
+    cursor: pointer;
+}
+ul li:nth-child(2){
+    background-color: var(--second);
+}
+ul li:nth-child(2):hover{
+    background-color: var(--secondhover);
+    cursor: pointer;
+}
+ul li:nth-child(3){
+    background-color: var(--thirdhover);
+}
+ul li:nth-child(3):hover{
+    background-color: var(--third);
+    cursor: pointer;
+}
+.container{
+    margin-top: 50px;
+    width: 45vw;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+}
+.container:hover{
+    background-color: var(--container);
+    cursor: pointer;
+}
+h1{
+    margin-bottom: 20px;
+    color: gold;
+}
