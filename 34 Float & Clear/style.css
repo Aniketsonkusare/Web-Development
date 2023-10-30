@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(173, 199, 147);
+}
+.cards{
+    border: 2px solid black;
+    display: flow-root;
+}
+.card{
+    border: 2px solid red;
+} 
+img{
+    float: left;
+}
+.card:nth-child(2){
+    background-color: aqua;
+}
+.card:nth-child(2):hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+.card:nth-child(3){
+    clear: both;
+    background-color: aqua;
+}
+.card:nth-child(3):hover{
+    background-color: saddlebrown;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.card:nth-child(4){
+    clear: both;
+    background-color: aqua;
+}
+.card:nth-child(4):hover{
+    background-color: cadetblue;
+    color: aliceblue;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+img:hover{
+    width: 300px;
+    cursor: pointer;
+    transition: 1s;
+}
