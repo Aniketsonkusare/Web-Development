@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(214, 171, 171)
+}
+
+.container {
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                        "side article article"
+                        "footer footer footer";
+
+}
+
+.items {
+    border: 2px solid red;
+    height: 40px;
+    /* width: 40px; */
+}
+
+.item-1 {
+    grid-area: nav;
+    background-color: aqua;
+}
+.item-2 {
+    grid-area: side;
+    background-color: gray;
+    color: white;
+}
+.item-3 {
+    grid-area: article;
+    background-color: blueviolet;
+}
+.item-4 {
+    grid-area: footer;   
+    background-color: burlywood;
+}
+.item-5 {
+    grid-area: nav;   
+}
