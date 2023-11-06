@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    height: 15vh;
+}
+
+.container{
+    height: 80vh;
+    background-color: blue;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 5vh;
+    text-align: center;
+    
+}
+.foot{
+    margin: 20px;
+}

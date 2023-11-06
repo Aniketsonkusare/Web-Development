@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background: red;
+    margin: 14px;
+    margin: 20px 40px 30px 20px; 
+    padding: 40px;
+    border: 2px solid black;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: aqua;
+    border-radius: 50px;
+}
