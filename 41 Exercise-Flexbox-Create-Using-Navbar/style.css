@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    margin: 20px;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+}
+.ultra{
+    font-size: 30px;
+    font-weight: 900;            
+}
+img{
+    margin-left: 50px;
+}
+nav{
+    background-color: chartreuse;
+}
+ul{
+    display: flex;
+    align-items: center;    
+}  
+.pro{
+    float: right;
+    margin-left: 350px;
+}
+.pro:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pri:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.res:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.about:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
