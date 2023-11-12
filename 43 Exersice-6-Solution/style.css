@@ -1,0 +1,40 @@
+header:hover{
+    background-color: aquamarine;
+}
+.logo{
+    width: 40px;
+    /* background-color: blue; */
+}
+.logo img{
+    width: 150px;
+    /* height: 24px; */
+}
+.logo img:hover{
+    width: 200px;
+    cursor: pointer;
+    /* height: 24px; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    gap: 34px;
+}
+.right ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.right ul li span{
+    padding: 0px 9px;
+}
+.right ul li:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
