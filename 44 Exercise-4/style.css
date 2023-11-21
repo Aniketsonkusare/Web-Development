@@ -1,0 +1,20 @@
+.container{
+    width: 80vw;
+    height: 90vh;
+    /* background-color: aquamarine; */
+    /* border: 2px solid black; */
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: repeat(3,300px);
+    gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+.items{
+        
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    border: 2px solid black;
+    border-radius: 5px;
+}
