@@ -1,0 +1,40 @@
+.container{
+    background-color: red;
+    height: 50vh;
+    position: relative;
+}
+.box{
+    position: absolute;
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+    bottom: 0;
+    animation: ball 5s linear infinite;
+}
+@keyframes ball{
+    0%{
+        left: 0;
+        bottom: 0;
+    }
+    20%{
+        left: 20%;
+        bottom: 50%;
+    }
+    40%{
+        left: 40%;
+        bottom: 0%;
+    }
+    60%{
+        left: 60%;
+        bottom: 60%;
+    }
+    80%{
+        left: 80%;
+        bottom: 0%;
+    }
+    100%{
+        left: 90%;
+        bottom: 20%;
+    }
+}
