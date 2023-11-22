@@ -1,0 +1,16 @@
+.container{
+    height: 200px;
+    width: 300px;
+    border: 2px solid goldenrod;
+    background-position: center center;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+}
+img{
+    height: 200px;
+    width: 300px;
+    object-fit: fill;
+    /* object-fit: cover; */
+    /* object-position: top right; */
+    object-position: 10px 10px;
+    /* object-fit: contain; */
+}
