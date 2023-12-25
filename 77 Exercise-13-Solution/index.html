@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            background-color: #333;
+            color: white;
+            margin-top: 10px;
+            margin-left: 10px;
+            display: flex;
+            margin: 5px;
+            align-items: center;
+            justify-content: flex-start;
+            border: 2px solid #333;
+            border-radius: 10px;
+            width: 1200px;
+            padding: 12px;
+        }
+        img{
+            border-radius: 10px;
+            padding: 3px;
+        }
+        .text{
+            margin-left: 50px;
+        }
+
+        .image{
+            position: relative;
+        }
+
+        .image .capsule{
+            position: absolute;
+            bottom: 10px;
+            color: white;
+            z-index: 10;
+            right: 5px;
+            background-color: #333;
+            padding: 3px 5px;
+            border-radius: 3px;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB0alxLSXCSEPITzWr-XXUiv1oglQ" alt="abc">
+                <div class="capsule">31:22</div>
+            </div>
+            <div class="text">
+                <h1>Introduction to HTML | Sigma web Development Course #1</h1>
+                <h3>Codewithharry . 727k views . 2 months ago</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
