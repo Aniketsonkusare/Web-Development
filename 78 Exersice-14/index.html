@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackers Terminal</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: green;
+            color: chartreuse;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .terminal{
+            background-color: black;
+            border-radius: 12px;
+            height: 400px;
+            width: 1200px;
+            font-size: 22px;
+            position: relative;
+            top: 100px;
+        }
+        .dot{
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%,20%,40%,60%,80%{
+                opacity: 0;
+            }
+            10%,30%,50%,70%,100%{
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="terminal" id="terminal">
+        <span class="dot"></span><br><br>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>
